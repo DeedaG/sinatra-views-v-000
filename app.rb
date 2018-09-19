@@ -12,7 +12,7 @@ class App < Sinatra::Base
     end
 
 	get '/info' do
-		"<h1>Info Page</h1>"
+		
     erb :info
   end
 end
